@@ -9,6 +9,9 @@ export default {
     black: '#FFF',
     gray: '#BFBFBF',
 
+    darkselect: '#0f1225',
+    lightselect: '#d1d1d1',
+
     success: '#0cac54',
     info: '#3B5998',
     warning: '#FF6961'

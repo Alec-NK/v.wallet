@@ -12,6 +12,9 @@ declare module 'styled-components' {
       black: string,
       gray: string,
 
+      darkselect: string,
+      lightselect: string,
+
       success: string,
       info: string,
       warning: string
