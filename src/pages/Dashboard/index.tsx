@@ -1,5 +1,4 @@
 import React from 'react';
-import { isPropertySignature } from 'typescript';
 
 import ContentHeader from '../../components/ContentHeader'
 import SelectInput from '../../components/SelectInput'
@@ -11,12 +10,6 @@ const Dashboard: React.FC = () => {
     {value: 'Alec', label: 'Alec'},
     {value: 'Maria', label: 'Maria'},
     {value: 'Joao', label: 'Joao'}
-  ]
-
-  const frutas = [
-    {value: 'Maça', label: 'Maça'},
-    {value: 'Uva', label: 'Uva'},
-    {value: 'Banana', label: 'Banana'}
   ]
 
   return(

@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   width: 100%;
 
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 `;
 
 export const TitleContainer = styled.div<ITitleContainerProps>`
