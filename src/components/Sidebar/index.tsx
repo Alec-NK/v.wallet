@@ -1,10 +1,7 @@
 import React from "react"
-import {
-  MdDashboard,
-  MdArrowDownward,
-  MdArrowUpward,
-  MdExitToApp
-} from 'react-icons/md'
+import { MdDashboard, MdExitToApp } from 'react-icons/md'
+import { BiArrowFromBottom, BiArrowToBottom} from 'react-icons/bi'
+
 
 import { Container, Header, Title, LogoImg, MenuContainer, ItemLink } from './styles'
 import logo from '../../assets/logo.svg'
@@ -19,9 +16,9 @@ const Sidebar: React.FC = () => {
 
       <MenuContainer>
         <ItemLink href='/dashboard'> <MdDashboard /> Dashboard </ItemLink>
-        <ItemLink href='/list/entry-balance'> Entradas </ItemLink>
-        <ItemLink href='/list/exit-balance'> Saídas </ItemLink>
-        <ItemLink href='#'> Logout </ItemLink>
+        <ItemLink href='/list/entry-balance'> <BiArrowFromBottom /> Entradas </ItemLink>
+        <ItemLink href='/list/exit-balance'> <BiArrowToBottom /> Saídas </ItemLink>
+        <ItemLink href='#'> <MdExitToApp /> Logout </ItemLink>
       </MenuContainer>
     </Container>
   )
