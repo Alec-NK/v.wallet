@@ -1,5 +1,5 @@
 export default {
-  title: 'light',
+  title: 'dark',
   colors: {
     primary: '#1B1F38',
     secondary: '#252A48',
@@ -12,8 +12,9 @@ export default {
     darkselect: '#0f1225',
     lightselect: '#d1d1d1',
 
-    success: '#1B1F',
+    success: '#4cbb4c',
     info: '#F7931B',
-    warning: '#E44C4E'
+    warning: '#E44C4E',
+    purple: '#7e78e3'
   }
 }

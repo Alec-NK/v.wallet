@@ -18,9 +18,9 @@ const Sidebar: React.FC = () => {
       </Header>
 
       <MenuContainer>
-        <ItemLink href='#'> <MdDashboard /> Dashboard </ItemLink>
-        <ItemLink href='#'> Entradas </ItemLink>
-        <ItemLink href='#'> Saídas </ItemLink>
+        <ItemLink href='/dashboard'> <MdDashboard /> Dashboard </ItemLink>
+        <ItemLink href='/list/entry-balance'> Entradas </ItemLink>
+        <ItemLink href='/list/exit-balance'> Saídas </ItemLink>
         <ItemLink href='#'> Logout </ItemLink>
       </MenuContainer>
     </Container>

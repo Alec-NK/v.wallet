@@ -14,7 +14,8 @@ export default {
 
     success: '#0cac54',
     info: '#3B5998',
-    warning: '#FF6961'
+    warning: '#FF6961',
+    purple: '#7e78e3'
   }
 }
 

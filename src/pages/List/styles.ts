@@ -41,6 +41,6 @@ export const Filters = styled.div`
     display: block;
     width: 65px;
     margin: 0 auto;
-    border-bottom: 7px solid ${props => props.theme.colors.success};
+    border-bottom: 7px solid ${props => props.theme.colors.purple};
   }
 `;
